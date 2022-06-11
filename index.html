@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>idea</title>
+</head>
+<body>
+    <div class="cosntainer">
+        <div class="row m-5 d-flex justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-header bg-dark">
+                    <h1 class="text-center text-white">IDEA</h1>
+
+                 <div class="dateandtime d-flex justify-content-around align-items-center">
+                    <div class="time d-flex justify-content-around  border border-primary p-1 ">
+                        <p class="text-primary mb-0 mx-1">TIME:</p>
+                        <p class="text-white mb-0" id="hour"></p>
+                        <p class="text-white mb-0">:</p>
+                        <p class="text-white mb-0" id="munite"></p>
+                        <p class="text-white mb-0" >:</p>
+                        <p class="text-white mb-0" id="second"></p>
+                        <div class="mx-1">
+                            <p class="text-primary mb-0" id="ampm"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-warning">o</h1>
+                    </div>
+                    <div class="d-flex justify-content-around align-items-center border border-primary p-1 ">
+                        <p class="text-primary mx-1 mb-0">DATE:</p>
+                        <p class="text-white mb-0" id="day"></p>
+                        <p class="text-white mb-0">:</p>
+                        <p class="text-white mb-0" id="month"></p>
+                        <p class="text-white mb-0">:</p>
+                        <p class="text-white mb-0" id="year"></p>
+                    </div>
+              </div>
+                    </div>
+                    <div class="card-body bg-secondary ">
+                        <div class="mb-5 d-flex justify-content-around">
+                            <img class="w-50 " src="image/lightoff.png" alt="idea" id="idea" >
+                        </div>
+                    </div>
+                    <div class="card-footer bg-dark">
+                        <div class="m-5 text-center d-flex justify-content-around ">
+                            <button id="start" class="btn btn-warning">ON</button>
+                            <button id="stop" class="btn btn-danger">OFF</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
